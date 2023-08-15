@@ -1,0 +1,99 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+body {
+    min-height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    font-family: monospace;
+}
+
+h5 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.image {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.intro {
+    height: 100vh;
+    margin-left: 1rem;
+}
+
+.image p {
+    line-height: 2;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+#pic {
+    display: block;
+    margin: auto;
+    width: 60%;
+    border-radius: 25%;
+
+}
+
+
+
+.timeline {
+    margin-left: 1rem;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+
+.timeline-ul {
+    width: 100%;
+    line-height: 1.6;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: auto;
+
+}
+
+.timeline-ul li {
+    font-size: 1.3rem;
+}
+
+.projects li {
+    font-size: 1.1rem;
+}
+
+.timeline-ul li {
+    margin-bottom: 0.5rem;
+}
+
+.achievements {
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.container img {
+    border-radius: 10%;
+    width: 30%;
+}
