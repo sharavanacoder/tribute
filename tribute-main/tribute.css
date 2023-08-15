@@ -1,0 +1,115 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: monospace;
+}
+
+h5 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1,h5,h2{   
+    text-align: center;
+}
+.intro {
+    min-height: 100vh;
+    background-image: url("https://i.postimg.cc/7hJ62513/K-Kamarajar.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-color: #f1eafa;
+}
+
+.timeline {
+    width: 100%;
+    display: flex;
+    background: linear-gradient(259deg, #252390, #03010a);
+    height: 100vh;
+}
+.video{
+    width: 100%;
+}
+
+h2 {
+    font-size: 2rem;
+    font-family: sans-serif;
+    margin-top: 2rem;   
+    color: whitesmoke;
+}
+.achievements{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(259deg, #012c1a, #011807);
+    min-height: 100vh;
+
+}
+.achievements .wrapper{
+    margin-top: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.achievements .images-cont{
+    margin-left: 2rem;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.3rem;
+}
+.achievements .images-cont img{
+    width: 28.5rem;
+    object-fit: cover;
+    height: 207px;
+    border-radius: 10%;
+}
+.achievements .images-cont a{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+}
+footer{
+    min-height: 30vh;
+    background-color: #03010a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    font-size: 1.5rem;  
+    cursor: pointer;
+    background-color: #98ffa1;
+    border-radius: 10%;
+    height: 60px;
+    border: none;
+}
+button:hover{
+    transition: 1s all ease-in-out;
+    background-color: #9897e9;
+}
+.achievements .images-cont a:hover{
+    color: #ffe602;
+    transition: 1s all ease-out;
+    text-decoration: underline;
+}
+@media(max-width:890px){
+.achievements .images-cont img{
+    width: 17.5rem;
+}
+}
+@media(max-width:500px){
+.achievements .images-cont img{
+    width: 19rem;
+}
+}
+@media(max-width:370px){
+.achievements .images-cont img{
+    width: 15rem;
+}
+}
